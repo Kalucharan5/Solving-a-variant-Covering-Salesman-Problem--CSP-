@@ -141,17 +141,4 @@ They can be called by clicking `GA + 2-OPT` or `GA + 3-OPT`. These two approache
 
 The profit varies as follows with the different approaches:
 
-![results](https://github.com/alesordo/Covering-Salesman-Problem/assets/85616887/c89f76fb-8f8f-4873-84c3-a7494c788f01)
 
-The GA gave the best results. Note that the best result overall was achieved by applying LS and 2-opt after each step. While this is not on the code, you can test it with a simple edit.
-
-## Improvements
-
-Some of the improvements to develop are:
-- Changing function to calculate the revenue. As for now, it has a $O(n)$ time complexity, that leads to a heavy resources usage;
-- Finding a compromise between the total number of people and the number of generations for the GA;
-- Test the results with different values of $Delta$, $c$ and $r$.
-
-## Credits
-
-This project was developed by Alessandro Amato (@aleama98) and Alessio Sordo (@alesordo), both students from the University of Ferrara (Italy) 💻
